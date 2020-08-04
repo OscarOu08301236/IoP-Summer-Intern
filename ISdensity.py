@@ -30,8 +30,8 @@ for i in z :
     rhoh = proton_mass * nh * np.exp(-((R7 * R7 + i * i) ** 0.5 - RO) / rh)
     rhoh0 = proton_mass * nh * np.exp(-((R * R + i * i) ** 0.5 - RO) / rh)
 
-    rhototal = rhot + rhoT + rhoh
-    rhototal0 = rhot0 + rhoT0 + rhoh0
+    rhototal = rhot + rhoT 
+    rhototal0 = rhot0 + rhoT0 
 
     """
     plt.plot(R7, rhot)
